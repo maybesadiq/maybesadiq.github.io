@@ -19,7 +19,7 @@ async function handleRequest(request) {
     });
   } else if (new URL(request.url).pathname == "/" && !request.body) {
     return Response.redirect(
-      "https://LinuxGuy312.github.io",
+      "https://maybesadiq.github.io",
       301
     );
   } else {
@@ -42,7 +42,7 @@ async function handleRequest(request) {
             "Content-Type": "application/json",
             "Cache-Control": "no-cache, no-store, must-revalidate",
             "Access-Control-Allow-Origin": "*",
-            "Made-By": "https://github.com/LinuxGuy312",
+            "Made-By": "https://github.com/maybesadiq",
           },
         }
       );
@@ -81,7 +81,7 @@ async function handleRequest(request) {
           "Content-Type": "application/json",
           "Cache-Control": "no-cache, no-store, must-revalidate",
           "Access-Control-Allow-Origin": "*",
-          "Made-By": "https://github.com/LinuxGuy312",
+          "Made-By": "https://github.com/maybesadiq2",
         },
       });
     }
