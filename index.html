@@ -52,6 +52,7 @@
                     <a class="active" href="https://instagram.com/maybesadiq" target="_blank">Instagram</a>
                     <a class="active" href="https://snapchat.com/add/maybesadiq" target="_blank">Snapchat</a>
                     <a class="active" href="https://x.com/xpeace_maker" target="_blank">Twitter X</a>
+                    <a class="active" href="#projects" id="my-projects">MY PROJECTS</a> <!-- Link to My Projects -->
                </div>
                <div class="header">
                     <label for="check" class="checkbtn" id="chkbtn">
@@ -87,6 +88,7 @@
                               <a href="https://instagram.com/maybesadiq" class="icon">
                                    <i class="fab fa-instagram"></i>
                               </a>
+                         </div>
                          <div class="buttons-wrap">
                               <div class="follow-wrap">
                                    <a href="https://mastermind.fims.uwo.ca/wp-content/uploads/2019/04/coming-soon-1.jpg" class="follow">MY BUILDs</a>
@@ -94,26 +96,55 @@
                               <div class="share-wrap">
                                    <a href="https://telegram.dog/MaybeSadiqBot" class="share">Contact</a>
                               </div>
-     <script>
-          document.onkeydown = function (e) {
-               if (event.keyCode == 123) {
-                    return false;
-               }
-               if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-                    return false;
-               }
-               if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-                    return false;
-               }
-               if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-                    return false;
-               }
-               if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-                    return false;
-               }
-          }
-     </script>
-     <script src="src/app.js"></script>
-     </script>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="projects" id="projects"> <!-- New section for projects -->
+                    <h3>My Projects</h3>
+                    <div class="project-container">
+                         <div class="project">
+                              <a href="https://link-to-your-project1.com" target="_blank">
+                                   <img src="src/image1.jpg" alt="Project 1">
+                                   <p>Project 1 Description</p>
+                              </a>
+                         </div>
+                         <div class="project">
+                              <a href="https://link-to-your-project2.com" target="_blank">
+                                   <img src="src/image2.jpg" alt="Project 2">
+                                   <p>Project 2 Description</p>
+                              </a>
+                         </div>
+                         <div class="project">
+                              <a href="https://link-to-your-project3.com" target="_blank">
+                                   <img src="src/image3.jpg" alt="Project 3">
+                                   <p>Project 3 Description</p>
+                              </a>
+                         </div>
+                    </div>
+               </div>
+
+               <script>
+                    document.onkeydown = function (e) {
+                         if (event.keyCode == 123) {
+                              return false;
+                         }
+                         if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                              return false;
+                         }
+                         if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                              return false;
+                         }
+                         if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                              return false;
+                         }
+                         if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                              return false;
+                         }
+                    }
+               </script>
+               <script src="src/app.js"></script>
+          </div>
+     </div>
 </body>
 </html>
